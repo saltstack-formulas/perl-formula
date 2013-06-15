@@ -9,4 +9,4 @@ Install perl
 perl-tk
 -------
 
-Install prl-tk libs
+Install perl-tk libs
