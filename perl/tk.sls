@@ -1,6 +1,6 @@
+{% from "perl/map.jinja" import perl with context %}
+
 perl-tk:
   pkg:
     - installed
-    {% if grains['os_family'] == 'RedHat' %}
-    - name: perl-Tk
-    {% endif %}
+    - name: {{ perl.tk_pkg }}

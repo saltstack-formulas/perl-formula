@@ -1,2 +1,3 @@
 perl:
-  pkg.installed
+  pkg:
+    - installed

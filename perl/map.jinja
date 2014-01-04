@@ -1,0 +1,8 @@
+{% set perl = salt['grains.filter_by']({
+    'Debian': {
+        'tk_pkg': 'perl-tk',
+    },
+    'RedHat': {
+        'tk_pkg': 'perl-Tk',
+    },
+}, merge=salt['pillar.get']('perl:lookup')) %}
