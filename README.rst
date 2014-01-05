@@ -1,12 +1,25 @@
 perl
 ====
 
-perl
-----
+Formulas to install Perl packages.
 
-Install perl
+.. note::
 
-perl-tk
--------
+    See the full `Salt Formulas installation and usage instructions
+    <http://docs.saltstack.com/topics/conventions/formulas.html>`_.
 
-Install perl-tk libs
+Available states
+================
+
+.. contents::
+    :local:
+
+``perl``
+--------
+
+Installs the perl package.
+
+``perl-tk``
+-----------
+
+Install the perl-tk package.
